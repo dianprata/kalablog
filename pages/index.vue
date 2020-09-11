@@ -26,7 +26,7 @@
             </h2>
             <nuxt-link v-for="(recent,index) in recentArticles" :key="index" :to="`/article/${recent.slug}`">
               <div class="recent-articles-list">
-                <img :src="recent.imageUrl" :alt="recent.slug" width="35%">
+                <img :src="recent.imageUrl" :alt="recent.slug">
                 <div class="recent-article-desc">
                   <h5>
                     {{ recent.title }}
