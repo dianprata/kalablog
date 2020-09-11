@@ -1,0 +1,18 @@
+//Component Category List
+.category-list {
+ display: flex;
+ justify-content: space-between;
+ a {
+  padding: 1rem;
+  font-weight: 500;
+ }
+}
+
+//Button
+button:focus {
+ outline: none;
+}
+
+.vs-input--placeholder {
+ top: unset;
+}

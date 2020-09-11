@@ -1,0 +1,21 @@
+.navbar-kala {
+ background: #fff !important;
+ position: fixed;
+ padding: .8rem .5rem;
+
+ .vs-con-items {
+  &.activeMenuResponsive {
+   background: #fff;
+  }
+  .nuxt-link-exact-active.nuxt-link-active {
+   color: rgba(var(--vs-primary), 1);
+  }
+  a {
+   font-size: 14px;
+   color: rgba(var(--vs-primary), .7);
+  }
+ }
+ .vs-con-dropdown i {
+  vertical-align: middle;
+ }
+}
